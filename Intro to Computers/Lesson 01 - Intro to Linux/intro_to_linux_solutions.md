@@ -165,6 +165,12 @@ These exercises are designed to help you practice using tools like `grep`, `wc`,
    scp file1.txt user@hostname:~
    ```
 
+4. Leave a message for your peers!
+   ```bash
+   touch i_was_here.txt
+   echo 'Ethan was here' >> i_was_here.txt
+   ```
+
 ---
 
 ### Exercise 8: Redirection Operators

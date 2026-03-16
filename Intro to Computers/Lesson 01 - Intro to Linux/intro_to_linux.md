@@ -112,6 +112,9 @@ These exercises are designed to help you practice using tools like `grep`, `wc`,
    
 
 3. Copy a local file to the remote server.
+
+
+4. Leave a message for your peers!
    
 
 ---
