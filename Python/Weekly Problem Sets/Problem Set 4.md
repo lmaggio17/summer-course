@@ -2,9 +2,9 @@
 
 **Topics covered:** dictionaries, sets, string methods (`.lower()`, `.split()`, `.strip()`, `.replace()`, `.join()`, etc.), list methods (`.append()`, `.sort()`, `.count()`, `.remove()`, etc.)
 
-**GitHub Classroom / Autograder note:** When using GitHub Classroom, automated feedback often requires exact function names, parameter lists, and return types. Do not rename functions or change parameter names/order; avoid extra print statements unless the instructions ask for them; prefer returning values over printing when specified. Wrap any demonstration or test code in an `if __name__ == "__main__":` block so autograders can import your functions cleanly.
+**Autograder note:** When using automated tests, it often requires exact function names, parameter lists, and return types. Do not rename functions or change parameter names/order; avoid extra print statements unless the instructions ask for them; prefer returning values over printing when specified. Wrap any demonstration or test code in an `if __name__ == "__main__":` block so autograders can import your functions cleanly.
 
-Your submitted script must be named `Problem Set 4 starter.py` or `Problem Set 4.py` for it to be picked up by the autograder.
+Create a new branch named `python/problem-set-4` for this work.  Your submitted script must be named `Problem Set 4 starter.py` or `Problem Set 4.py` for it to be picked up by the autograder.  Once you have passed all tests, you can merge your code back into main.
 
 ---
 
