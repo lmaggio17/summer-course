@@ -17,6 +17,8 @@ jobs:
     problem-1:
         name: "Problem 1 — Soldier Roster & Dispatch System"
         runs-on: ubuntu-latest
+        env:
+            SOLUTION_MODE: ${{ github.repository == 'AFC-AI2C/summer-course' && github.event_name == 'workflow_dispatch' && 'true' || '' }}
         steps:
             - uses: actions/checkout@v4
             - uses: actions/setup-python@v5
@@ -53,6 +55,8 @@ jobs:
     # problem-2:
     #     name: "Problem 2 — Recipe Ingredient Checker"
     #     runs-on: ubuntu-latest
+    #     env:
+    #         SOLUTION_MODE: ${{ github.repository == 'AFC-AI2C/summer-course' && github.event_name == 'workflow_dispatch' && 'true' || '' }}
     #     steps:
     #         - uses: actions/checkout@v4
     #         - uses: actions/setup-python@v5
@@ -77,6 +81,8 @@ jobs:
     # problem-3:
     #     name: "Problem 3 — Song Lyric Word Counter"
     #     runs-on: ubuntu-latest
+    #     env:
+    #         SOLUTION_MODE: ${{ github.repository == 'AFC-AI2C/summer-course' && github.event_name == 'workflow_dispatch' && 'true' || '' }}
     #     steps:
     #         - uses: actions/checkout@v4
     #         - uses: actions/setup-python@v5
@@ -101,6 +107,8 @@ jobs:
         runs-on: ubuntu-latest
         needs: [problem-1]
         if: always()
+        env:
+            SOLUTION_MODE: ${{ github.repository == 'AFC-AI2C/summer-course' && github.event_name == 'workflow_dispatch' && 'true' || '' }}
         steps:
             - uses: actions/checkout@v4
             - uses: actions/setup-python@v5

@@ -11,6 +11,7 @@ To run locally:
 """
 
 import copy
+import os
 import pytest
 from conftest import load_student_module, assert_has_function
 
@@ -18,7 +19,13 @@ from conftest import load_student_module, assert_has_function
 # ---------------------------------------------------------------------------
 # Path to the student's submission (relative to the repo root)
 # ---------------------------------------------------------------------------
-STUDENT_FILE = "Python/Weekly Problem Sets/Problem Set 4 starter.py"
+_SOLUTION_MODE = os.environ.get("SOLUTION_MODE", "").lower() == "true"
+
+STUDENT_FILE = (
+    "Python/Weekly Problem Sets/Problem Set 4 solution.py"
+    if _SOLUTION_MODE
+    else "Python/Weekly Problem Sets/Problem Set 4 starter.py"
+)
 
 
 # ---------------------------------------------------------------------------
