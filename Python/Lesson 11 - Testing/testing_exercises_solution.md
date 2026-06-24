@@ -2,6 +2,26 @@
 
 This file contains complete solutions for Hands-On #1.
 
+- [Unit Testing with pytest - Solutions](#unit-testing-with-pytest---solutions)
+  - [Exercise 1: Check Initial Coverage](#exercise-1-check-initial-coverage)
+  - [Exercise 2: Test the `validate_isbn()` Function](#exercise-2-test-the-validate_isbn-function)
+  - [Exercise 3: Test the `format_book_info()` Function](#exercise-3-test-the-format_book_info-function)
+  - [Exercise 4: Test the `books_by_decade()` Function](#exercise-4-test-the-books_by_decade-function)
+  - [Exercise 5: Reach 80% Code Coverage](#exercise-5-reach-80-code-coverage)
+    - [Add to `tests/test_library.py`:](#add-to-teststest_librarypy)
+    - [Add to `tests/test_analytics.py`:](#add-to-teststest_analyticspy)
+  - [Expected Coverage After All Exercises](#expected-coverage-after-all-exercises)
+  - [Stretch Solution](#stretch-solution)
+    - [Complete Analytics Tests](#complete-analytics-tests)
+  - [Hands-On #2: Integration Testing Solutions](#hands-on-2-integration-testing-solutions)
+    - [Exercise 1: Library Workflow Integration](#exercise-1-library-workflow-integration)
+    - [Exercise 2: Analytics Integration Test](#exercise-2-analytics-integration-test)
+    - [Exercise 3: Search and Checkout Workflow](#exercise-3-search-and-checkout-workflow)
+    - [Exercise 4: Complete Library Lifecycle](#exercise-4-complete-library-lifecycle)
+  - [Stretch Solution: Custom Fixture](#stretch-solution-custom-fixture)
+  - [Running All Tests](#running-all-tests)
+
+
 ## Exercise 1: Check Initial Coverage
 
 Run pytest with coverage:
