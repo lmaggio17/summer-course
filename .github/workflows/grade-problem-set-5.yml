@@ -64,9 +64,24 @@ jobs:
                   cache-dependency-path: ".github/python_tests/requirements.txt"
             - run: pip install -r .github/python_tests/requirements.txt
 
-            - name: "Recipe class"
+            - name: "Fibonacci"
               run: >
-                  pytest .github/python_tests/test_problem_set_5.py::TestRecipeClass
+                  pytest .github/python_tests/test_problem_set_5.py::TestFibonacci
+                  -v --tb=short --no-header --color=yes -s
+
+            - name: "Count Ways"
+              run: >
+                  pytest .github/python_tests/test_problem_set_5.py::TestCountWays
+                  -v --tb=short --no-header --color=yes -s
+            
+            - name: "Grid Path"
+              run: >
+                  pytest .github/python_tests/test_problem_set_5.py::TestGridPaths
+                  -v --tb=short --no-header --color=yes -s
+
+            - name: "Permutations (Challenge)"
+              run: >
+                  pytest .github/python_tests/test_problem_set_5.py::TestFibonacci
                   -v --tb=short --no-header --color=yes -s
 
     problem-3:

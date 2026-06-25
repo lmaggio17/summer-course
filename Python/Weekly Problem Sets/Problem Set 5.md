@@ -55,8 +55,39 @@ As stated above, you should create a new branch and checkout that branch for thi
 
 ## Problem 2 — Multiple Recursion
 
+**Your task:**
+- **Fibonacci sequence**
+  - Given an integer `n`, return the nth Fibonacci number using multiple recursion
+  - Name your function `fibonacci`
+  - The Fibonacci sequence is: 0, 1, 1, 2, 3, 5, 8, 13, 21...
+  - For example, `fibonacci(0)` returns `0`, `fibonacci(1)` returns `1`, `fibonacci(6)` returns `8`
+  - Note: Use 0-based indexing (the sequence starts at index 0)
+
+- **Count ways to climb stairs**
+  - Given `n` stairs, return the number of distinct ways to climb to the top if you can take 1 or 2 steps at a time
+  - Name your function `count_ways`
+  - Use multiple recursion (consider both taking 1 step and taking 2 steps)
+  - For example, `count_ways(3)` returns `3` (there are 3 ways: 1+1+1, 1+2, 2+1)
+  - For example, `count_ways(4)` returns `5` (1+1+1+1, 1+1+2, 1+2+1, 2+1+1, 2+2)
+  - Note: `count_ways(0)` returns `1` (one way to stay at the ground), `count_ways(1)` returns `1`
+
+- **Grid paths**
+  - Given a grid of size `m x n`, count the number of unique paths from top-left corner `(0,0)` to bottom-right corner `(m-1, n-1)`
+  - You can only move right or down at any point
+  - Name your function `grid_paths`
+  - It should take two parameters: `m` (rows) and `n` (columns)
+  - For example, `grid_paths(2, 2)` returns `2` (right-down or down-right)
+  - For example, `grid_paths(3, 3)` returns `6`
+  - Note: `grid_paths(1, 1)` returns `1`, `grid_paths(1, n)` returns `1`, `grid_paths(m, 1)` returns `1`
 
 ### Challenge
+
+- **Generate all permutations**
+  - Given a list of unique integers, return all possible permutations using recursion
+  - Name your function `permutations`
+  - For example, `permutations([1, 2])` returns `[[1, 2], [2, 1]]` (order doesn't matter)
+  - For example, `permutations([1, 2, 3])` returns `[[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]` (order doesn't matter)
+  - An empty list returns `[[]]` (a list containing the empty list)
 
 
 ---
