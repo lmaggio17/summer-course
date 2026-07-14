@@ -31,7 +31,7 @@
 
 ###################################################################
 
-###Exercise 3###
+##Exercise 3###
 # age= int(input("How old are you?   "))
 # if age<13:
 #     print("You are still a child   ")
@@ -191,23 +191,175 @@
 
 ###Excercise 17### 
 
-number=[1,2,3,4,5,6,7,8,9,10]
-even_count=0
-for num in number:
-    if num % 2 ==0:
-        even_count=even_count+1
-print("There are", even_count, "numbers.")
+# number=[1,2,3,4,5,6,7,8,9,10]
+# even_count=0
+# for num in number:
+#     if num % 2 ==0:
+#         even_count=even_count+1
+# print("There are", even_count, "numbers.")
+
+###################################################################
+
+###Excercise 18### 
+
+# count=10
+# while count >0:
+#     print(count)
+#     count=count-1
 
 
+# count=5
+# while count<=25:
+#     print(count)
+#     count=count+5
+
+###################################################################
+
+###Excercise 19### 
+
+# number=1
+# while number <=100:
+#     print(number)
+#     number=number*2
+
+###################################################################
+
+###Excercise 20### 
 
 
+# my_list=list(range(0, 21,2))
+# print(my_list)
 
+###################################################################
 
+###Excercise 21### 
 
+# my_list=[]
+# for number in range(1,6):
+#     my_list.append(number**2)
+# print(my_list)
 
+###################################################################
 
+###Excercise 22### 
 
+# text = "Hello World"
+# vowels = "aeiouAEIOU"
+# vowel_count = 0
 
+# for character in text:
+#     if character in vowels:
+#         vowel_count = vowel_count + 1
+
+# print(vowel_count)
+
+###################################################################
+
+###Excercise 23### 
+
+# numbers = [23, 67, 12, 89, 45, 34]
+# largest = numbers[0]
+# for number in numbers:
+#     if number > largest:
+#         largest=number
+# print(largest)
+
+###################################################################
+
+###Excercise 24### 
+
+# numbers = [2, 5, 7, 10, 15]
+# for number in numbers:
+#     if number == 7:
+#         break
+#     print(number)
+
+###################################################################
+
+###Excercise 25### 
+
+# for number in range(1, 11):
+#     if number % 3 == 0:
+#         continue
+
+#     print(number)
+
+###################################################################
+
+###Excercise 26### 
+
+# for row in range(1, 4):
+#     for column in range(1, 4):
+#         print(row, "x", column, "=", row * column)
+
+###################################################################
+
+###Excercise 27### 
+
+# numbers = [5, 10, 8, 15, 12, 7]
+
+# result = []
+# total = 0
+# i = 0
+
+# while total <= 50 and i < len(numbers):
+#     result.append(numbers[i])
+#     total = total + numbers[i]
+#     i= i + 1
+
+# print(f"Final list: {result}")
+# print(f"Total sum: {total}")
+
+###################################################################
+
+###Excercise 28### 
+
+# fruits = ["apple", "banana", "cherry", "date"]
+# target = "cherry"
+# index = 0
+
+# for fruit in fruits:
+#     if fruit == target:
+#         print(target, "is at index", index)
+#         break
+#     index += 1
+
+###################################################################
+
+###Excercise 29### 
+
+# original = [10, 20, 30, 40, 50]
+# reversed_list = []
+
+# for number in original:
+#     reversed_list.insert(0, number)
+
+# print(reversed_list)
+
+###################################################################
+
+###Excercise 30### 
+
+# max_asterisks = 10
+# total_printed = 0
+# row = 1
+# finished = False
+
+# while not finished:
+#     for position in range(row):
+#         if total_printed >= max_asterisks:
+#             finished = True
+#             break
+
+#         print("*", end="")
+#         total_printed += 1
+
+#     print()
+
+#     if finished:
+#         break
+
+#     row += 1
 
 ###################################################################
 
