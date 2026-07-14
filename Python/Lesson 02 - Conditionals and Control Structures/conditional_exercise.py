@@ -1,3 +1,37 @@
+###################################################################
+
+###Exercise 1###
+# number = float(input("Provide a number "))
+# if number==0:
+#       print("Your number is zero. ")
+# elif number>=.1: 
+#     print("Your number is positive. ")
+# else:
+#     print("Your number is negative. ")
+
+# ##Exercise 2###
+# num=int(input("Please provide an integer.  "))
+# if num %2==1:
+#     print("Your number is odd.")
+# else:
+#     print("Your number is even")
+
+###################################################################
+
+###Exercise 2###
+
+# num=int(input("Please provide an integer number.  "))
+
+# if num <0:
+#     print("Your number is negative.")
+# elif num == 0:
+#     print("Your number is zero.")
+# else:
+#     print("Your number is positive.")
+
+###################################################################
+
+###Exercise 3###
 # age= int(input("How old are you?   "))
 # if age<13:
 #     print("You are still a child   ")
@@ -7,7 +41,10 @@
 #     print("You are an adult   ")
 # else:
 #     print("You are ancient   ")
-######################################
+
+###################################################################
+
+###Exercise 4###
 # a=int(input("Provide a number:   "))
 # b=int(input("Please provide a second number:   "))
 
@@ -17,7 +54,10 @@
 #     print("The second number is larger")
 # else:
 #     print("The numbers are the same.")
-######################################
+
+###################################################################
+
+###Exercise 5###
 # grade=float(input("What was your grade?   "))
 # if grade >=90:
 #     print("You got an A, good job!")
@@ -29,22 +69,162 @@
 #     print("Big oof that's an D.")
 # else:
 #     print("Dangggg you failed!")
-##########################################
-###Made it to exercise 6, do these at home...
 
-magic_number=22
-guess=int(input("Guess an integer number.  "))
-count=1
-while guess != magic_number and count <3:
-    if guess < magic_number:
-        print("Higher!")
-    else:
-        print("Too high, try again")
+###################################################################
 
-    guess=int(input("Guess an integer number.  "))
-    count+=1
-if guess==magic_number:
-    print(f"Congrats! Thats right!")
-    print(f"It took you {count} guesses.")
-else:
-    print("Better luck next time")
+# ###Exercise 6### 
+# user_string=(input("Please provde a string of characters or words    "))
+# print(len(user_string))
+
+# if len(user_string) >10:
+#     print("Long String")
+# else: 
+#     print("Short String")
+###################################################################
+
+# ###Exercise 7###
+# num=int(input("Please provide a number.   "))
+# if num >=10 and num<=20:
+#     print("Number is in range.")
+# else:
+#     print("Number is out of range.")
+
+###################################################################
+
+##Exercise 8###
+# letter=input("Enter a lower case letter.    ")
+
+# if letter=="a"or letter=="e" or letter=="i" or letter=="o" or letter=="u":
+#     print("Vowel")
+# else:
+#     print("Consonant")
+
+###################################################################
+
+###Excercise 9### This one was hard... aka math is hard. 
+
+# year=int(input("Please provide the year to determine if it is a leap year.   "))
+
+# if (year%4==0 and year % 100!=0) or year%400==0:
+#     print("It is a leap year") 
+# else: 
+#     print("It is not a leap year")
+
+###################################################################
+
+###Excercise 10### 
+
+# height=float(input("How tall are you in meters?  "))
+# weight=float(input("How much do you weigh in kilograms?   "))
+# bmi=weight/height**2
+# if bmi <18.5:
+#     print("Underweight")
+# elif bmi<=24.9:
+#     print("Normal weight")
+# elif bmi<=29.9:
+#     print("Overweight")
+# else:
+#     print("Obese")
+
+###################################################################
+
+###Excercise 11### 
+
+# colors=['red', 'blue', 'green', 'orange']
+# for color in colors:
+#     print(color)
+    
+###################################################################
+
+###Excercise 12### 
+
+# numbers=[5,10,15,20,25]
+# print("The list has", len(numbers), "items.")
+
+###################################################################
+
+###Excercise 13### 
+
+# my_list=[]
+# my_list.append(1)
+# my_list.append(2)
+# my_list.append(3)
+# my_list.append(4)
+# my_list.append(5)
+# print(my_list)
+
+## A better way to do this would be, way easier
+
+# my_list=[]
+# my_list.extend([1,2,3,4,5])
+# print(my_list)
+
+###################################################################
+
+###Excercise 14### 
+
+# for number in range(1,11):
+#     print(number)
+
+###################################################################
+
+###Excercise 15### 
+
+# num_list= [4,7,2,9,12]
+# total=0
+# for number in num_list:
+#     total=total+number
+# print(total)
+
+###################################################################
+
+###Excercise 16### 
+
+# ava_fruits=["apple", "banana", "orange", "mango"]
+# fruit=input("What fruit are you looking for?  ")
+# if fruit in ava_fruits:
+#     print("This fruit is available")
+# else: 
+#     print("That fruit is not available")
+
+###################################################################
+
+###Excercise 17### 
+
+number=[1,2,3,4,5,6,7,8,9,10]
+even_count=0
+for num in number:
+    if num % 2 ==0:
+        even_count=even_count+1
+print("There are", even_count, "numbers.")
+
+
+
+
+
+
+
+
+
+
+
+
+###################################################################
+
+###Instructor led exercise###
+# magic_number=22
+# guess=int(input("Guess an integer number.  "))
+# count=1
+# while guess != magic_number and count <3:
+#     if guess < magic_number:
+#         print("Higher!")
+#     else:
+#         print("Too high, try again")
+
+#     guess=int(input("Guess an integer number.  "))
+#     count+=1
+# if guess==magic_number:
+#     print(f"Congrats! Thats right!")
+#     print(f"It took you {count} guesses.")
+# else:
+#     print("Better luck next time")
