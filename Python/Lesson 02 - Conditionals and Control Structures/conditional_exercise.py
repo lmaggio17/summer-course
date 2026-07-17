@@ -380,3 +380,44 @@
 #     print(f"It took you {count} guesses.")
 # else:
 #     print("Better luck next time")
+########################################################
+
+# def personalized_card(name: str, number: int, symbol: str) -> None:
+#     name_sentence = "Hello, " + name
+#     number_sentence = "Your favorite number is " + str(number)
+
+#     sent1 = len(name_sentence)
+#     sent2 = len(number_sentence)
+
+#     if sent1 >= sent2:
+#         max_len = sent1
+#     else:
+#         max_len = sent2
+
+#     print(symbol * (max_len + 4))
+#     print(symbol + " " + name_sentence.ljust(max_len) + " " + symbol)
+#     print(symbol + " " + number_sentence.ljust(max_len) + " " + symbol)
+#     print(symbol * (max_len + 4))
+
+
+# name = input("What is your name? ")
+# number = int(input("What is your favorite number? "))
+
+# personalized_card(name, number, "*")
+##################################
+
+
+for i in range(1,16):
+    print(i, sep=" ", end=" ")
+print() 
+for j in range(2,31,2):
+    print(j, sep=" ",end=" ")
+print() 
+for k in range(20,-1,-2):
+    print(k,sep=" ",end=" ")
+print()
+
+def print_range(start:int, stop:int,step:int)-> None:
+    for number in range(start, stop, step):
+        print(number,sep=" ", end=" ")
+print_range(20,-1,-2)
