@@ -1,0 +1,47 @@
+# # def calculate_total(price, quantity):
+# #     total = price * quantity
+# #     print(f"Total: {total}")
+# #     return total
+
+# # calculate_total(10, 5)
+
+
+# # def greet(name):
+# #     print(f"Hello, {name}")
+
+# # greet("Bob")
+
+
+# # user_name = "Charlie"
+# # print(user_name)
+
+# # favorite_color = "blue"
+# # print(f"My favorite color is {favorite_color}")
+
+# # age = str(25)
+# # message = ("I am " + age + " years old")
+# # print(message)
+
+# # quantity = 5
+# # price = 10.50
+# # total = quantity * price
+# # print(total)
+
+# # scores = [85, 90, 78, 92]
+# # index = 2
+# # print(scores[index])
+
+# student = {
+#     "name": "Alice",
+#     "age": 20,
+#     "major": "Computer Science"
+# }
+# grade = student.get("grade", "No grade available")
+# print(grade)
+
+inventory = {
+    "apples": 10,
+    "bananas": 5,
+    "oranges": 8
+}
+print(f"We have {inventory['apples']} apples")
