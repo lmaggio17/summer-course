@@ -1,0 +1,47 @@
+# example:
+# with open('input.txt', 'r') as file:
+#     lines=file.readlines()
+#     for line in lines:
+#         print(line)
+#         \n = newline character
+#****
+# file_handle = open('output.txt, 'r')
+# context = file_handle.read
+#file_handle.close()
+# DONT DO THIS^^^^
+#****
+
+#We can do both:
+# with open('input.txt' , 'r') as input, open('output.txt, 'w') as output
+    # for line in input:
+    #     output.write(line.strip().upper + '\n')
+
+#Practice:
+
+
+# import random
+# with open ( "output.txt", 'w') as file:
+#     for num in (range(50,100)):
+#         random_number=random.randint(50,100)
+#         file.write(str(random_number) + '\n')
+
+# with open("output.txt", 'r') as file:
+#     lines = file.readlines()
+#     for line in range(100):
+#         minimum_value = int(lines[0].strip())
+#         maximum_value = int(lines[0].strip())
+
+# for line in lines:
+#     number = int(line.strip())
+
+#     if number < minimum_value:
+#         minimum_value = number
+
+#     if number > maximum_value:
+#         maximum_value = number
+
+# print(f"Minimum value: {minimum_value}")
+# print(f"Maximum value: {maximum_value}")
+
+import os
+os .listdir()

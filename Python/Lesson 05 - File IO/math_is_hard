@@ -1,0 +1,15 @@
+principal = float(input("Enter the starting amount: $"))
+interest_rate = float(input("Enter the annual interest rate (%): "))
+years = int(input("Enter the number of years: "))
+times_compounded = int(input("How many times is interest compounded per year? "))
+
+interest_rate = interest_rate / 100
+
+amount = principal * (1 + interest_rate / times_compounded) ** (
+    times_compounded * years
+)
+
+interest_earned = amount - principal
+
+print(f"\nFinal amount: ${amount:.2f}")
+print(f"Interest earned: ${interest_earned:.2f}")
