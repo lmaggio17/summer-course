@@ -1,6 +1,5 @@
 import random
 
-
 def play_game():
     choices = ["Rock", "Paper", "Scissors"]
 
