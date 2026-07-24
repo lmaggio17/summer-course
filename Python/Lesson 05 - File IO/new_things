@@ -43,5 +43,4 @@
 # print(f"Minimum value: {minimum_value}")
 # print(f"Maximum value: {maximum_value}")
 
-import os
-os .listdir()
+range[1, 2]
