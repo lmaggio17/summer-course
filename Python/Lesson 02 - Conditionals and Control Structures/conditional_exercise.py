@@ -1,13 +1,13 @@
 ###################################################################
 
-###Exercise 1###
-# number = float(input("Provide a number "))
-# if number==0:
-#       print("Your number is zero. ")
-# elif number>=.1: 
-#     print("Your number is positive. ")
-# else:
-#     print("Your number is negative. ")
+##Exercise 1###
+number = float(input("Provide a number "))
+if number==0:
+      print("Your number is zero. ")
+elif number>=.1: 
+    print("Your number is positive. ")
+else:
+    print("Your number is negative. ")
 
 # ##Exercise 2###
 # num=int(input("Please provide an integer.  "))
@@ -407,17 +407,109 @@
 ##################################
 
 
-for i in range(1,16):
-    print(i, sep=" ", end=" ")
-print() 
-for j in range(2,31,2):
-    print(j, sep=" ",end=" ")
-print() 
-for k in range(20,-1,-2):
-    print(k,sep=" ",end=" ")
-print()
+# for i in range(1,16):
+#     print(i, sep=" ", end=" ")
+# print() 
+# for j in range(2,31,2):
+#     print(j, sep=" ",end=" ")
+# print() 
+# for k in range(20,-1,-2):
+#     print(k,sep=" ",end=" ")
+# print()
 
-def print_range(start:int, stop:int,step:int)-> None:
-    for number in range(start, stop, step):
-        print(number,sep=" ", end=" ")
-print_range(20,-1,-2)
+# def print_range(start:int, stop:int,step:int)-> None:
+#     for number in range(start, stop, step):
+#         print(number,sep=" ", end=" ")
+# print_range(20,-1,-2)
+
+
+# groceries = ["chicken", "rice", "mushrooms"]
+# groceries.append("bell peppers")
+# groceries.remove("rice")
+# print(groceries)
+# print(groceries[0])
+# print(len(groceries))
+
+# scores = [72, 91, 58, 84, 67, 95, 43]
+# passing_scores=[]
+
+# for score in scores:
+#     if score>= 70:
+#         passing_scores.append(score)
+
+# print(passing_scores)
+
+# prices = [12, 45, 8, 63, 27, 91, 15]
+# expensive_items=[]
+
+# for price in prices:
+#     if price >=40:
+#         expensive_items.append(price)
+        
+# amount=len(expensive_items)
+# print(expensive_items)
+# print(amount)
+
+# temperatures = [12, -3, 7, -8, 0, 15, -1]
+# freezing_temps= []
+# for temp in temperatures:
+#     if temp <0:
+#         freezing_temps.append(temp)
+#         amount=len(freezing_temps)
+# print(freezing_temps)
+# print(amount)
+
+# expenses = [25, 80, 12, 150, 45, 200, 30]
+# large_expense_total=0
+
+# for exp in expenses:
+#     if exp>50:
+#         large_expense_total+=exp
+# print(large_expense_total)
+
+# hours_worked = [6, 9, 8, 11, 7, 10, 5]
+# overtime_total=0
+
+# for hours in hours_worked:
+#     if hours>8:
+#         overtime_total+= hours
+# print(overtime_total)
+
+# number=1
+# while number <6:
+#     print(number)
+#     number=number+1
+
+# number = 1
+# total = 0
+
+# while number <=5:
+#     total+=number
+#     number+=+1
+# print(total)
+
+# number = 2
+# even_total = 0
+# while number<=10:
+#     even_total+=number
+#     number+=+2
+# print(even_total)
+
+# number = 5
+# total=0
+# while number <=25:
+#     print(number)
+#     total+=number
+#     number=number+5
+    
+# print(total)
+    
+number = 10
+total = 0
+
+while number > 0:
+    print(number)
+    total = total + number
+    number = number - 2
+
+print("Total:", total)
