@@ -41,7 +41,7 @@ import requests
 
 # if comments:
 #     print(f"First email: {comments[0]['email']}")
-
+########################################################
 
 from requests.auth import HTTPBasicAuth
 
@@ -54,13 +54,15 @@ response = requests.get(
 
 print(response.status_code)
 print(response.json())
-
+###################################################
 
 headers = {"Authorization": "Bearer ayeooo"}
 response = requests.get(f"{BASE_URL}/bearer", headers=headers)
 
 print(response.status_code)
 print(response.json())
+
+#####################################################
 
 api_key = "key-001"
 
